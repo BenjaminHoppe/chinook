@@ -1,0 +1,18 @@
+PART 1:
+
+1)
+- SELECT * FROM albums WHERE artist='Queen';
+- SELECT * FROM albums WHERE albums.artist_id=51;
+
+2)
+-  SELECT * FROM media_types WHERE name='Protected MPEG-4 video file';
+- SELECT * FROM tracks WHERE tracks.media_type_id=3;
+
+3)
+- SELECT * FROM genres WHERE name="Hip Hop/Rap";
+
+4)
+- SELECT SUM(milliseconds) FROM tracks;
+
+5)
+- 
